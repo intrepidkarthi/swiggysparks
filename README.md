@@ -27,5 +27,5 @@ We have a complete product to show the demo
 building scalable system in real time
 
 ## What's next for Spark Alerts for Swiggy
-Need to check with swiggy team on it. We 
+Need to check with swiggy team on it.
 
