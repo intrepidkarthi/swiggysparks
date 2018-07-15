@@ -9,8 +9,10 @@ We have consumed the swiggy order data set provided by them and we have added ou
 
 This figures out the anomolies like,
 
--- The delay in order placed time - the time taken for the order to reach the restaurant display
--- The delay in order placed time - the time taken for the fleet guy to accept the particular delivery
+-- The delay in order placed time - the time taken for the order to reach the restaurant display\n
+-- The delay in order placed time - the time taken for the fleet guy to accept the particular delivery\n
+-- More insights into order cancellations
+-- Misc alerts for the team and customers
 
 ## How we built it
 with data coming from multiple sources like consumer app, partner app, delivery fleet app we need to send it to pipeline using kafka and take actions in real time with the help of apache storm while we use postgres for DB operations especially to handle geospatial queries. 
